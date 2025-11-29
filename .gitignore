@@ -1,0 +1,51 @@
+## Visual Studio / .NET
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Build outputs
+**/bin/
+**/obj/
+out/
+publish/
+
+## Rider
+.idea/
+
+## Visual Studio Code
+.vscode/
+
+## NuGet
+*.nupkg
+packages/
+project.assets.json
+
+## Resharper
+_ReSharper*/
+*.DotSettings.user
+
+## Logs
+logs/
+*.log
+
+## Environment / local settings
+.env
+.env.*
+local.settings.json
+appsettings.Development.json
+
+## Docker
+docker-compose.override.yml
+docker-compose.*.local.yml
+
+## Test results
+TestResults/
+*.trx
+
+## Misc
+*.vsix
+*.cache
+*.db
+.fake
